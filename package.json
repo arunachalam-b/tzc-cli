@@ -1,0 +1,39 @@
+{
+  "name": "tzc-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to convert UTC timestamps to different timezones.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "timezone",
+    "cli",
+    "converter",
+    "utc",
+    "date",
+    "time"
+  ],
+  "author": "Arunachalam B <techie.arunachalam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "inquirer": "^12.5.0"
+  },
+  "bin": {
+    "tzc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/tzc-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tzc-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/tzc-cli#readme"
+}
