@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pkg . --targets node18-win-x64 --output tzc.exe"
   },
   "keywords": [
     "timezone",
@@ -28,6 +29,15 @@
   "bin": {
     "tzc": "./index.js"
   },
+  "pkg": {
+    "scripts": "index.js",
+    "assets": [],
+    "targets": [
+      "node18-win-x64",
+      "node18-macos-x64",
+      "node18-linux-x64"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arunachalam-b/tzc-cli.git"
@@ -35,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/arunachalam-b/tzc-cli/issues"
   },
-  "homepage": "https://github.com/arunachalam-b/tzc-cli#readme"
+  "homepage": "https://github.com/arunachalam-b/tzc-cli#readme",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
 }
