@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/tzc-cli.git"
+    "url": "git+https://github.com/arunachalam-b/tzc-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/tzc-cli/issues"
+    "url": "https://github.com/arunachalam-b/tzc-cli/issues"
   },
-  "homepage": "https://github.com/yourusername/tzc-cli#readme"
+  "homepage": "https://github.com/arunachalam-b/tzc-cli#readme"
 }
